@@ -1084,6 +1084,7 @@ a.btn-primary:hover {
   text-align: center;
 }
 
+
 @media (min-width: 1200px) {
   .data-analytics .boxpadding-l.uk-first-column {
     padding-left: 40px;
@@ -1098,16 +1099,21 @@ a.btn-primary:hover {
   }
 }
 
-@media (max-width: 1460px) {
-  .about-fna-deployment .uk-child-width-1-4\@l>* {
-    width: 50%;
+@media (max-width: 900px) {
+  .the-team {
+    grid-template-columns: repeat(1, 1fr);
   }
+}
+@media (max-width: 1460px) {
+/*  .about-fna-deployment .uk-child-width-1-4\@l>* {
+    width: 50%;
+  }*/
   .monitor-category-grid {
     --cat-grid-cols: 3;
   }
 }
 
-@media (max-width: 1320px) {
+/*@media (max-width: 1320px) {
   .data-analytics .boxpadding-l {
     margin-top: 0;
     width: 25%;
@@ -1116,21 +1122,36 @@ a.btn-primary:hover {
     content: none;
   }
 }
-
+*/
 
 @media (max-width: 1200px) {
   .monitor-category-grid {
     --cat-grid-cols: 2;
   }
 }
-
-@media (max-width: 1120px) {
+@media (max-width: 960px) {
+  .uk-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .margin-top-f {
+    margin-top: 55px;
+  }
+}
+@media (max-width: 485px) {
+  .monitor-category-grid {
+    --cat-grid-cols: 1;
+  }
+}
+/*@media (max-width: 1120px) {
   .data-analytics .box-icon {
     display: none;
   }
-}
+}*/
 
-@media (max-width: 959.9px) {
+/*@media (max-width: 959.9px) {
   body {
     overflow: hidden;
   }
@@ -1149,4 +1170,4 @@ a.btn-primary:hover {
     top: 0;
     z-index: 9999;
   }
-}
+}*/
