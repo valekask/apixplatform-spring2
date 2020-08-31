@@ -6,11 +6,11 @@ Backend Sprint-Boot Application for Apix G20TechSprint
 
 1.  Download the code into IDE instance
 
-        git clone https://github.com/valekask/apixplatform-spring.git
+        git clone https://github.com/valekask/apixplatform-spring2.git
 
 2.  Change the terminal directory to `apixplatform-spring` folder
 
-        cd apixplatform-spring/
+        cd apixplatform-spring2/
 
 3. Start the backend server
 
