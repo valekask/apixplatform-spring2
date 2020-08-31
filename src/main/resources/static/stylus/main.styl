@@ -1,0 +1,335 @@
+@import "variables.styl"
+@import "landing.styl"
+@import "home.styl"
+@import "dashboard.styl"
+@import "about-fna.styl"
+
+
+body 
+	font-family 'Exo', sans-serif
+	background-color white
+
+h1
+	font-family 'Exo', sans-serif
+	font-weight bold
+	font-size 48px
+	line-height 64px
+	color white
+	text-transform capitalize
+
+h2
+	font-family 'Exo', sans-serif
+	font-weight normal
+	font-size 30px
+	line-height 40px
+	color white
+
+h3
+	font-family 'Exo', sans-serif
+	font-style normal
+	font-weight bold
+	font-size 24px
+	line-height 32px
+	text-transform capitalize
+	color primary_color
+
+p
+	color primary_color
+
+button
+	outline none
+	cursor pointer 
+	
+.m-b-cero
+	margin-bottom 0
+
+ 
+	
+.bg-footer1
+	background-color grey_900
+	.content-f
+		padding 20px
+		margin-bottom 0 
+		a
+			&:hover
+				text-decoration none
+				color grey_500
+		.copyright, .who, .info
+			color grey_200
+			font-size 14px 
+		.who, .info
+			&:before
+				background grey_200
+				content ""
+				display inline-block
+				height 16px
+				margin 0 8px 0 6px
+				position relative
+				top 2px
+				width 2px
+			
+.ption 
+	bottom 0
+	width 100%
+	
+.contact
+	background-color grey_900
+	margin-top 30px
+	padding 20px
+	bottom 0
+	a
+		&:hover
+			text-decoration none
+			color grey_500
+	.orange
+		color secundary_color
+	.phone-f, .email-f, .location-f
+		color grey_200
+		font-size 14px 
+	.phone-f, .email-f
+		&:before
+			background grey_200
+			content ""
+			display inline-block
+			height 16px
+			margin 0 8px 0 6px
+			position relative
+			top 2px
+			width 2px
+	
+.bg-footer2
+	background-color primary_color
+	.content-f
+		padding 20px
+		margin 0
+		
+		.copyright
+			color grey_200
+			font-size 14px 
+			
+.no-margin-b
+	margin-bottom 0
+
+#header
+	.header
+		background-color primary_color
+		height 55px
+		box-shadow 0px 5px 10px #E0E2E4
+		.uk-navbar-nav>li>a
+			font-family 'Exo', sans-serif
+			min-height 55px
+			color grey_300
+			font-size 16px
+			text-transform capitalize
+			font-weight 300
+		.uk-navbar-nav>li>a.link-header
+			&:hover 
+				border-bottom 5px solid secundary_color
+				left 0
+				transition 0.3s ease-out
+			
+		.uk-navbar-nav::before
+			border-bottom none
+
+		.uk-navbar-nav>*>a
+			border-bottom 5px solid transparent
+		.uk-navbar-nav>.uk-active>a
+			border-color secundary_color
+		.line-b
+			&:after
+				background grey_200
+				content ""
+				display inline-block
+				height 25px
+				margin 0 0 0 15px
+				position relative
+				top 0px
+				width 2px
+				@media (max-width:959px)
+					display none 
+
+.txt-center
+	text-align center
+
+
+.container-two
+	margin 0
+	max-width 100%
+	padding-top 40px
+	&.padd-top
+		padding-top 0
+	
+	.title-intro
+		margin-top 20px
+		justify-items center
+		align-items center
+		&.no-margin-top
+			margin-top 0
+		h3
+			
+			margin-top 30px
+			width fit-content
+			
+	.m-p-ico
+		margin 0 15px 0 0
+		width 45px
+		height 45px
+		background-color grey_100
+		justify-content center
+		align-items center
+		display inline-flex
+		color grey_600
+		border-radius 50%
+		
+		img 
+			width 25px
+	p 
+		max-width 1035px
+	
+	.other-tab
+		margin-top 20px
+		li
+			a
+				padding 15px 0 15px 0  
+				color blue_color
+	
+	.other-tab>*>a
+		border-bottom 3px solid transparent
+	.other-tab>.uk-active>a
+		border-color blue_color
+				
+#modal-next-year
+	
+	.modal-box
+		max-width 522px !important
+		text-align center
+	.m-p-ico
+		margin-top 20px
+		width 111px
+		height 111px
+		background-color grey_100
+		justify-content center
+		align-items center
+		display inline-flex
+		color grey_600
+		border-radius 50%
+		
+	p 
+		&:before
+			background secundary_color
+			content ""
+			display block
+			height 1px
+			margin 0 auto
+			position relative
+			top -10px
+			width 36px
+			
+	
+
+/// UK
+
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle
+	min-height 55px
+
+.uk-offcanvas-bar
+	width 100vw
+	background primary_color
+	li
+		a.link-header
+			&:hover 
+				border-bottom 5px solid secundary_color
+				transition 0.3s ease-out
+				width fit-content
+				margin 0 auto
+	li.uk-active
+		border-bottom 5px solid secundary_color
+		transition 0.3s ease-out
+		width fit-content
+		margin 0 auto
+.uk-navbar-toggle
+	color secundary_color
+	
+.uk-nav-primary>li>a
+	line-height 2
+
+.btn-primary
+	background-color secundary_color
+	text-transform capitalize
+	border-radius 5px
+	font-size 18px
+	min-width 155px
+	min-height 50px
+	color white
+	border-color transparent 
+	&.main-btn
+		margin-left 25px
+		margin-top 20px
+	&.box-btn
+		margin 0
+		width 100%
+	
+	&:hover, &:active, &:visited 
+		background-color secundary_color_hover
+		border-color transparent 
+		
+
+
+.uk-tooltip
+	box-shadow 0 1px 4px 0 rgba(0,0,0,0.1)
+	border 1px solid blue_color
+	text-shadow none
+	background blue_200
+	color blue_color
+	padding 7px 10px
+	border-radius 5px
+
+.uk-breadcrumb>:last-child>span
+	color blue_color
+
+@media(max-width:1999px)
+	.box-card.sub:before
+		width 30px
+		left -30px
+
+@media(max-width:768px)
+	.uk-breadcrumb
+		li
+			padding-bottom 10px
+	.main-txt
+		text-align center
+		padding 35% 15% !important
+		margin 0 auto
+		display block
+		h1
+			&:before 
+				display none
+
+@media(max-width:639px)
+	.main-txt
+		h1
+			font-size 30px 
+			line-height 45px
+		h2
+			font-size 22px
+			line-height 35px
+	
+	#landing 
+		
+		.uk-section 
+			.p-d
+				padding-right 0
+			.p-d-l
+				padding-left 30px
+		.bg 
+			.content
+				.logos 
+					padding 30px
+
+
+
+
+
+
+
+
