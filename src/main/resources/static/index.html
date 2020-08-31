@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="initial-scale=1, minimum-scale=1, viewport-fit=cover, width=device-width">
+		<title>G20</title>
+		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap" rel="stylesheet">
+		<link rel="icon" href="./favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./css/uikit.min.css"/>
+		<link rel="stylesheet" href="./css/normalize.css"/>
+		<link rel="stylesheet" href="./css/main.css"/>
+		<script defer src="./js/uikit.min.js"></script>
+		<script defer src="./js/uikit-icons.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25676200-5"></script>
+		<script async src="./js/ga.js"></script>
+	</head>
+	<body>
+		<div id="landing">
+			<div class="bg">
+				<div class="content">
+					<div class="logos">
+						<img class="logo-left" data-src="img/fna-logo.png" alt="" uk-img>
+						<img class="logo-right" data-src="img/g20-logo-green.png" alt="" uk-img>
+					</div>
+					<div class="main-txt uk-container">
+						<h1 class="main-margin-title"><span class="main-title">Welcome to the Detect <br>&amp; Investigate Suite</span></h1>
+						<h2 class="main-margin-title-2" style="max-width: 880px">Interactive dashboards that monitor your payments for unexplainable activity and enhance compliance investigations</h2>
+						<button class="btn-primary main-btn learn-more" type="button">Learn more</button>
+					</div>
+				</div>
+				<div class="uk-height-medium bg-h uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./img/iceberg.jpg" uk-img></div>
+			</div>
+
+			<div class="uk-section home-v2">
+				<div class="uk-container">
+					<div class="uk-child-width-expand@s" uk-grid>
+						<div class="p-d">
+							<h3 class="m-b-cero">Uncovering the Signal in the Noise</h3>
+							<img class="line" data-src="img/line.svg" alt="" uk-img>
+							<p>Current suspicious activity identification is passive & focused on remaining compliant. This focus results in monitoring solutions that primarily produces false positive alerts and cases, hiding real risks within financial payment networks.</p>
+							<p>Risks and threats are difficult to discern in networks that include multiple currencies, lines of business, and and firms, allowing entities to proclaim to be one type of customer, but behave as another.</p>
+							<p>Pictured Right: SWIFT MT 103 Payment network provided by SWIFT-SCOPE</p>
+							<button class="btn-primary" onclick="window.open('./about-fna.html', '_self')" type="button">Enter</button>
+						</div>
+						<div class="home-img-container">
+							<img alt="" loading="lazy" src="./img/noise-1x.jpg" srcset="./img/noise-1x.jpg 1x, ./img/noise-2x.jpg 2x">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-section bg-color">
+				<div class="uk-container">
+					<div class="uk-child-width-expand@s" uk-grid>
+						<div class="home-img-container">
+							<img alt="" loading="lazy" src="./img/transactions-1x.jpg" srcset="./img/transactions-1x.jpg 1x, ./img/transactions-2x.jpg 2x">
+						</div>
+						<div class="p-d-l">
+							<h3 class="m-b-cero">Not just who transacts with who, But who should be transacting across networks?</h3>
+							<img class="line" data-src="img/line.svg" alt="" uk-img>
+							<p>FNA’s anomaly detection for entities and transactions enhances and augments existing suspicious transaction and entity risk scoring.</p>
+							<p>Deep neural network link prediction adds an additional layer to existing suspicious scores. We are able to learn how the graph evolves and to signal transactions with a low probability of happening as anomalous; namely, those which are not conforming with the network historical payment patterns.</p>
+							<p>Pictured left: The data input is enriched with graph features, the result is a probability for each possible link in your financial payment system</p>
+							<button class="btn-primary" onclick="window.open('./home.html', '_self')" type="button">Enter</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-section">
+				<div class="uk-container">
+					<div class="uk-child-width-expand@s" uk-grid>
+						<div class="p-d">
+							<h3 class="m-b-cero">Dynamic KYC / Segmentation Optimization: Are you who you say you are?</h3>
+							<img class="line" data-src="img/line.svg" alt="" uk-img>
+							<p>Are the entities participating in suspicious and anomalous transactions who or what they purport to be?</p>
+							<p>We are able to derive significant features from the fingerprints of the transactions of each organisation.  We can use this fingerprint to identify entities in misrepresented segments due to a mismatch in expected behavior, resulting from either business adaptation or potential criminal activity.</p>
+							<button class="btn-primary" onclick="window.open('./home.html', '_self')" type="button">Enter</button>
+						</div>
+						<div class="home-img-container" style="padding-left: 0;">
+							<img alt="" loading="lazy" src="./img/dynamic-kyc-1x.jpg" srcset="./img/dynamic-kyc-1x.jpg 1x, ./img/dynamic-kyc-2x.jpg 2x">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-section bg-color">
+				<div class="uk-container">
+					<div class="uk-child-width-expand@s" uk-grid>
+
+						<div class="home-img-container">
+							<img alt="" loading="lazy" src="./img/payment-fingerprints-1x.jpg" srcset="./img/payment-fingerprints-1x.jpg 1x, ./img/payment-fingerprints-2x.jpg 2x">
+						</div>
+
+						<div class="p-d-l" style="padding-left: 56px;">
+							<h3 class="m-b-cero">Payment system participants leave fingerprints</h3>
+							<img class="line" data-src="img/line.svg" alt="" uk-img>
+							<p>With FNA, you can reduce high density data laden with false positive risks to high fidelity data with high probability of risk, and seamlessly launch an investigation into entities of interest with leveraging multiple data sources. Crypto exchanges can also be identified and singled out for their involvement in suspicious transactions.</p>
+							<p>Pictured Left: Network data reduced to highly suspicious anomalous transactions with crypto exchanges and possible unlicensed exchange.</p>
+							<button class="btn-primary" onclick="window.open('./home.html', '_self')" type="button">Enter</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-section">
+				<div class="uk-container">
+					<div class="uk-child-width-expand@s" uk-grid>
+						<div class="p-d" style="padding-right: 0; z-index: 1;">
+							<h3 class="m-b-cero">Investigate the Signal</h3>
+							<img class="line" data-src="img/line.svg" alt="" uk-img>
+							<p>Investigate highly suspicious & anomalous transactions and entities of interest with multiple sources of data that were identified by FNA’s graph analytics and machine learning models.</p>
+							<button class="btn-primary" onclick="window.open('./home.html', '_self')" type="button">Enter</button>
+						</div>
+						<div class="home-img-container" style="padding-left: 0; margin-left: -60px;">
+							<img alt="" loading="lazy" src="./img/investigate-signal-1x.jpg" srcset="./img/investigate-signal-1x.jpg 1x, ./img/investigate-signal-2x.jpg 2x">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<footer id="footer">
+			<div class="contact-data">
+				<h3 class="orange">Contact details</h3>
+				<dl>
+					<dt class="hide">Company:</dt>
+					<dd class="company">FNA</dd>
+					<dt class="hide">Location:</dt>
+					<dd class="location"><a href="https://goo.gl/maps/fJn6rGFT1ZPLFJMK6" rel="noreferrer" target="_blank"><span uk-icon="location"></span> Albert House, 256-260 Old Street, London, EC1V 9DD</a></dd>
+					<dt class="hide">Phone:</dt>
+					<dd class="separation"><a href="tel:+442035386505"><span uk-icon="receiver"></span> +44 203 538 6505</a></dd>
+					<dt class="hide">Website:</dt>
+					<dd class="separation"><a href="https://fna.fi/" target="_blank"><span uk-icon="laptop"></span> www.fna.fi</a></dd>
+					<dt class="hide">Email:</dt>
+					<dd class="separation"><a href="mailto:info@fna.fi"><span uk-icon="mail"></span> info@fna.fi</a></dd>
+				</dl>
+			</div>
+			<small class="copyright">Copyright © FNA 2020</small>
+		</footer>
+		<script>
+			const easeOutQuart = t => 1 - (--t) * t * t * t;
+
+			const scrollToSection = ({
+				duration = 1200,
+				easing = easeOutQuart,
+				target
+			}) => {
+				const origin = window.pageYOffset;
+				const distance = target - origin;
+
+				let dob;
+				let progress;
+				let timeFraction;
+
+				function animate(timestamp) {
+					if (!dob) dob = timestamp;
+					timeFraction = Math.min((timestamp - dob) / duration, 1);
+					progress = origin + (easing(timeFraction) * distance);
+
+					window.scrollTo(0, progress);
+					if (timeFraction < 1) window.requestAnimationFrame(animate);
+				};
+
+				window.requestAnimationFrame(animate);
+			}
+
+			const startHome = () => {
+				const sections = document.body.querySelector('.home-v2');
+				scrollToSection({target: sections.offsetTop});
+			}
+
+			const learnMore = document.body.querySelector('.learn-more');
+
+			learnMore.addEventListener('click', startHome);
+		</script>
+	</body>
+</html>

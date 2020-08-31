@@ -1,0 +1,109 @@
+	
+.box-card
+	font-size 16px
+	border 1px solid line_grey
+	color primary_color
+	padding 0
+	border-radius 5px
+	height fit-content
+	margin-top 18px
+	a 
+		text-decoration none
+		color inherit
+		&:hover
+			text-decoration none
+	p,ul
+		padding 15px
+		margin 0
+		
+	&.selected
+		border 1px solid blue_color
+		color blue_color
+		background blue_200
+		
+	&.sub
+		border 1px solid line_grey 
+		background-color grey_300 
+		&:hover
+			box-shadow 0px 5px 10px #E0E2E4 !important
+			background grey_300 !important
+		&:before
+			background line_grey
+			content ""
+			display block
+			height 1px
+			width 20px
+			position relative
+			top 25px
+			left -20px
+			
+		@media (min-width:1280px)
+			&:before
+				width 18px
+				left -18px
+		@media (max-width:639px)
+			&:before 
+				display none
+		
+	&.sub-item
+		border 1px solid line_grey 
+		background-color grey_200 
+		ul
+			font-size 16px
+		
+		&:hover
+			box-shadow 0px 5px 10px #E0E2E4 !important
+			background grey_200 
+	&.option
+		border 1px solid line_grey
+		color inherit
+		
+		&:hover
+			border 1px solid blue_color
+			box-shadow 0px 5px 10px #E0E2E4 !important
+			color blue_color
+		path
+			stroke blue_color
+			
+	.number-box
+		height 26px
+		width 26px
+		border-radius 50%
+		background-color blue_color
+		margin 0
+		justify-content center
+		align-items center
+		display inline-flex
+		
+		&.sub
+			transform translateY(-5px)
+		
+		.number 
+			color white
+			font-size 15px
+			padding-top 3px
+			&.ico-i
+				transform translateY(-2px)
+		&.none
+			background-color grey_500
+			
+	.box-icon
+		width 22.5px
+		height 22.5px
+		margin-right 5px 
+	
+			 
+	.title-box
+		color blue_color
+		font-weight 500
+		&.sub
+			color primary_color
+		&.sub-item
+			color primary_color
+			font-weight 400
+
+@media (min-width: 1200px)
+
+	.uk-grid
+		.boxpadding-l
+			padding-left 15px
